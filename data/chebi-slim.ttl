@@ -8,14 +8,14 @@
 
 <http://purl.enanomapper.net/onto/external/chebi-slim.owl> rdf:type owl:Ontology ;
                                                             <http://purl.obolibrary.org/obo/foaf_homepage> "https://www.ebi.ac.uk/chebi"^^xsd:anyURI ;
-                                                            <http://purl.obolibrary.org/obo/owl_versionInfo> "255" ;
+                                                            <http://purl.obolibrary.org/obo/owl_versionInfo> "256" ;
                                                             <http://purl.obolibrary.org/obo/terms_description> "Chemical Entities of Biological Interest, also known as ChEBI, is a chemical database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies (OBO) effort at the European Bioinformatics Institute (EBI)." ;
                                                             <http://purl.obolibrary.org/obo/terms_license> <https://creativecommons.org/licenses/by/4.0/> ;
                                                             <http://purl.obolibrary.org/obo/terms_title> "ChEBI Ontology" ;
                                                             <http://purl.org/pav/importedFrom> "http://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi_lite.obo" ;
                                                             <http://www.geneontology.org/formats/oboInOwl#auto-generated-by> "Slimmer" ;
-                                                            <http://www.geneontology.org/formats/oboInOwl#date> "09:09:2026 21:03" ,
-                                                                                                                "2026-09-10 07:54:11" ;
+                                                            <http://www.geneontology.org/formats/oboInOwl#date> "06:10:2026 11:26" ,
+                                                                                                                "2026-10-11 14:25:01" ;
                                                             <http://www.geneontology.org/formats/oboInOwl#default-namespace> "chebi_ontology" ;
                                                             <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "1.2" ;
                                                             <http://www.geneontology.org/formats/oboInOwl#saved-by> "chebi" ;
