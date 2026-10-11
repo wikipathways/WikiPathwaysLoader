@@ -97,11 +97,19 @@ jobs:
       - name: Retrieve WP CHEBI terms (config file for Slimmer)
         run: |
             echo "SELECT DISTINCT ?chebi WHERE { [] wp:bdbChEBI ?chebi }" > chebi.rq
-            curl -H "Accept: text/tab-separated-values" --data-urlencode query@chebi.rq -G https://sparql.wikipathways.org/sparql -o chebi.tsv
+            # --fail so an endpoint error (e.g. a 502 page) stops here instead of being
+            # passed on to Slimmer as a config file.
+            curl --fail --retry 5 --retry-delay 30 --retry-all-errors -H "Accept: text/tab-separated-values" --data-urlencode query@chebi.rq -G https://sparql.wikipathways.org/sparql -o chebi.tsv
             grep -v "\"chebi\"" chebi.tsv > chebi2.tsv
             sed -i 's/"https:\/\/identifiers.org\/chebi\/CHEBI:/+U:http:\/\/purl.obolibrary.org\/obo\/CHEBI_/' chebi2.tsv
             sed -i 's/\"//' chebi2.tsv
             cp chebi2.tsv chebi.iris
+            if ! grep -q '^+U:http://purl.obolibrary.org/obo/CHEBI_' chebi.iris || grep -qv '^+' chebi.iris; then
+              echo "::error::chebi.iris is not a valid Slimmer config; the SPARQL response was:"
+              head -5 chebi.tsv
+              exit 1
+            fi
+            echo "$(wc -l < chebi.iris) CHEBI terms retrieved"
       - name: Slim CHEBI and convert to turtle
         run: |
             java -cp slimmer-1.0.1-jar-with-dependencies.jar com.github.enanomapper.Slimmer .
