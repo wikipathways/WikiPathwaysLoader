@@ -1,0 +1,30 @@
+name: Check SPARQL endpoint
+
+on:
+  schedule:
+    # Every 3 hours. A failed run sends the usual GitHub Actions failure email.
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Query sparql.wikipathways.org
+        run: |
+          # A real query rather than a page load: the Snorql UI on / keeps returning 200
+          # when the Virtuoso backend behind /sparql is unreachable.
+          query='SELECT (COUNT(DISTINCT ?p) AS ?n) WHERE { ?p a <http://vocabularies.wikipathways.org/wp#Pathway> }'
+          n=$(curl --fail --silent --show-error --max-time 60 \
+                --retry 3 --retry-delay 60 --retry-all-errors \
+                -H "Accept: text/tab-separated-values" \
+                --data-urlencode "query=$query" -G https://sparql.wikipathways.org/sparql \
+              | tail -n 1 | tr -dc '0-9')
+          echo "Pathways in store: ${n:-none}"
+          if [ -z "$n" ] || [ "$n" -lt 1000 ]; then
+            echo "::error::sparql.wikipathways.org/sparql did not return a plausible pathway count"
+            exit 1
+          fi
