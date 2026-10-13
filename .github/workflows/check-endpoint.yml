@@ -4,6 +4,8 @@ on:
   schedule:
     # Every 3 hours. A failed run sends the usual GitHub Actions failure email.
     - cron: '17 */3 * * *'
+    # Once a day: is the endpoint serving the newest upstream release?
+    - cron: '43 7 * * *'
   workflow_dispatch:
 
 permissions:
@@ -26,5 +28,38 @@ jobs:
           echo "Pathways in store: ${n:-none}"
           if [ -z "$n" ] || [ "$n" -lt 1000 ]; then
             echo "::error::sparql.wikipathways.org/sparql did not return a plausible pathway count"
+            exit 1
+          fi
+
+      - name: Check the served release is current
+        # Daily only, so a stale store sends one failure email a day rather than eight.
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '43 7 * * *'
+        run: |
+          # The pathway count above stays plausible on a store that is months old. In
+          # September 2026 the monthly reload loaded the new release into the offline
+          # instance and the cutover never ran, so 20260810 was served until 12 October
+          # with every check green. Compare what the store says it holds with upstream.
+          upstream=$(curl --fail --silent --show-error --max-time 60 \
+                       --retry 3 --retry-delay 60 --retry-all-errors \
+                       https://data.wikipathways.org/current/rdf/ \
+                     | grep -oE 'wikipathways-[0-9]{8}-rdf-gpml\.zip' | grep -oE '[0-9]{8}' | sort -u | tail -n 1)
+          query='PREFIX void: <http://rdfs.org/ns/void#>
+          SELECT ?d WHERE { ?d a void:Dataset . FILTER(REGEX(STR(?d), "^https://data.wikipathways.org/[0-9]{8}/rdf/$")) }'
+          served=$(curl --fail --silent --show-error --max-time 60 \
+                     --retry 3 --retry-delay 60 --retry-all-errors \
+                     -H "Accept: text/tab-separated-values" \
+                     --data-urlencode "query=$query" -G https://sparql.wikipathways.org/sparql \
+                   | grep -oE '[0-9]{8}' | sort -u | tail -n 1)
+          echo "Upstream release: ${upstream:-none}  served release: ${served:-none}"
+          if [ -z "$upstream" ] || [ -z "$served" ]; then
+            echo "::error::could not read the upstream or the served release date"
+            exit 1
+          fi
+          # The reload runs on the 12th and the cutover two hours later, while releases
+          # appear around the 10th: allow three days before calling the store stale.
+          due=$(date -u -d "$upstream + 3 days" +%Y%m%d)
+          today=$(date -u +%Y%m%d)
+          if [ "$served" -lt "$upstream" ] && [ "$today" -ge "$due" ]; then
+            echo "::error::sparql.wikipathways.org still serves release $served, upstream has had $upstream for 3+ days. Check cronjobs_wikipathways-reload / cronjobs_wikipathways-switch on the cluster."
             exit 1
           fi
