@@ -35,8 +35,8 @@ Two consequences worth stating plainly:
 
 | File | What it is |
 |---|---|
-| `wpvocab.ttl` | The WP vocabulary, `http://vocabularies.wikipathways.org/wp#`. Hand-maintained. |
-| `gpmlvocab.ttl` | The GPML vocabulary, `http://vocabularies.wikipathways.org/gpml#`. Hand-maintained. |
+| `wpvocab.ttl` | The WP vocabulary, `http://vocabularies.wikipathways.org/wp#`. Copied from `docs/wp.owl` in wikipathways/WpVocabularies (2026-10-16). |
+| `gpmlvocab.ttl` | The GPML vocabulary, `http://vocabularies.wikipathways.org/gpml#`. Copied from `docs/gpml.owl` in wikipathways/WpVocabularies (2026-10-16). |
 | `PathwayOntology.ttl` | Pathway Ontology (RGD), from its OBO PURL, converted with ROBOT. |
 | `DiseaseOntology.ttl` | Human Disease Ontology, from its OBO PURL, converted with ROBOT. |
 | `CellOntology.ttl` | Cell Ontology, from its OBO PURL, converted with ROBOT. |
