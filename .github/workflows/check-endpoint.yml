@@ -39,10 +39,18 @@ jobs:
           # September 2026 the monthly reload loaded the new release into the offline
           # instance and the cutover never ran, so 20260810 was served until 12 October
           # with every check green. Compare what the store says it holds with upstream.
-          upstream=$(curl --fail --silent --show-error --max-time 60 \
-                       --retry 3 --retry-delay 60 --retry-all-errors \
-                       https://data.wikipathways.org/current/rdf/ \
-                     | grep -oE 'wikipathways-[0-9]{8}-rdf-gpml\.zip' | grep -oE '[0-9]{8}' | sort -u | tail -n 1)
+          # Upstream release: the newest date in the directory listing or in the release VoID.
+          # The listing alone is not enough. On 10 November 2026 a failed GitHub Pages deploy
+          # left index.html listing only the authors zip while all release files were served.
+          upstream=$( { curl --fail --silent --show-error --max-time 60 \
+                          --retry 3 --retry-delay 60 --retry-all-errors \
+                          https://data.wikipathways.org/current/rdf/ \
+                        | grep -oE 'wikipathways-[0-9]{8}-rdf-gpml\.zip' || true
+                        curl --fail --silent --show-error --max-time 60 \
+                          --retry 3 --retry-delay 60 --retry-all-errors \
+                          https://data.wikipathways.org/current/rdf/wikipathways-rdf-void.ttl \
+                        | grep -oE 'data\.wikipathways\.org/[0-9]{8}/rdf/' || true
+                      } | grep -oE '[0-9]{8}' | sort -u | tail -n 1)
           query='PREFIX void: <http://rdfs.org/ns/void#>
           SELECT ?d WHERE { ?d a void:Dataset . FILTER(REGEX(STR(?d), "^https://data.wikipathways.org/[0-9]{8}/rdf/$")) }'
           served=$(curl --fail --silent --show-error --max-time 60 \
