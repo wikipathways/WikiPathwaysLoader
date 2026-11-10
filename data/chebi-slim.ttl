@@ -8,14 +8,14 @@
 
 <http://purl.enanomapper.net/onto/external/chebi-slim.owl> rdf:type owl:Ontology ;
                                                             <http://purl.obolibrary.org/obo/foaf_homepage> "https://www.ebi.ac.uk/chebi"^^xsd:anyURI ;
-                                                            <http://purl.obolibrary.org/obo/owl_versionInfo> "256" ;
+                                                            <http://purl.obolibrary.org/obo/owl_versionInfo> "257" ;
                                                             <http://purl.obolibrary.org/obo/terms_description> "Chemical Entities of Biological Interest, also known as ChEBI, is a chemical database and ontology of molecular entities focused on 'small' chemical compounds, that is part of the Open Biomedical Ontologies (OBO) effort at the European Bioinformatics Institute (EBI)." ;
                                                             <http://purl.obolibrary.org/obo/terms_license> <https://creativecommons.org/licenses/by/4.0/> ;
                                                             <http://purl.obolibrary.org/obo/terms_title> "ChEBI Ontology" ;
                                                             <http://purl.org/pav/importedFrom> "http://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi_lite.obo" ;
                                                             <http://www.geneontology.org/formats/oboInOwl#auto-generated-by> "Slimmer" ;
-                                                            <http://www.geneontology.org/formats/oboInOwl#date> "06:10:2026 11:26" ,
-                                                                                                                "2026-10-11 14:25:01" ;
+                                                            <http://www.geneontology.org/formats/oboInOwl#date> "05:11:2026 18:04" ,
+                                                                                                                "2026-11-10 10:48:55" ;
                                                             <http://www.geneontology.org/formats/oboInOwl#default-namespace> "chebi_ontology" ;
                                                             <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "1.2" ;
                                                             <http://www.geneontology.org/formats/oboInOwl#saved-by> "chebi" ;
@@ -2133,6 +2133,16 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                               rdfs:label "2-hydroxy-3-methylpentanoic acid" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_133086
+<http://purl.obolibrary.org/obo/CHEBI_133086> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_28383> ;
+                                              <http://purl.obolibrary.org/obo/IAO_0000115> "An α,ω-dicarboxylic acid that is octadecane in which both terminal methyl groups have been replaced by carboxy groups." ;
+                                              <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:133086" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                              rdfs:label "octadecanedioic acid" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_133093
 <http://purl.obolibrary.org/obo/CHEBI_133093> rdf:type owl:Class ;
                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_60334> ;
@@ -2206,6 +2216,16 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                               rdfs:label "quercetin 3-O-rhamnoside-7-O-glucoside" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_133249
+<http://purl.obolibrary.org/obo/CHEBI_133249> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_35746> ;
+                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A fatty aldehyde in which there is no carbon-carbon unsaturation." ;
+                                              <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:133249" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                              rdfs:label "saturated fatty aldehyde" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_133291
 <http://purl.obolibrary.org/obo/CHEBI_133291> rdf:type owl:Class ;
                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_28965> ;
@@ -2277,6 +2297,28 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                               <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:133445" ;
                                               <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                               rdfs:label "saturated fatty acyl-L-carnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_133446
+<http://purl.obolibrary.org/obo/CHEBI_133446> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_176910> ,
+                                                              <http://purl.obolibrary.org/obo/CHEBI_75659> ;
+                                              <http://purl.obolibrary.org/obo/IAO_0000115> "An O-acylcarnitine in which the R is a monounsaturated fatty acyl chain." ;
+                                              <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:133446" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                              rdfs:label "monounsaturated fatty acyl-L-carnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_133447
+<http://purl.obolibrary.org/obo/CHEBI_133447> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_176910> ,
+                                                              <http://purl.obolibrary.org/obo/CHEBI_75659> ;
+                                              <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine in which the R group is a methyl-branched fatty acyl chain." ;
+                                              <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:133447" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                              rdfs:label "methyl-branched fatty acyl-L-carnitine" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_133456
@@ -3920,6 +3962,33 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                               rdfs:label "long-chain (3S)-hydroxy fatty acyl-CoA" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_137640
+<http://purl.obolibrary.org/obo/CHEBI_137640> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                              <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:137640" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
+                                              rdfs:label "O-(hydroxyoctenoyl)carnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_137644
+<http://purl.obolibrary.org/obo/CHEBI_137644> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                              <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:137644" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
+                                              rdfs:label "O-(dimethylnonanoyl)carnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_137647
+<http://purl.obolibrary.org/obo/CHEBI_137647> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                              <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:137647" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
+                                              rdfs:label "O-(hydroxymyristoyl)carnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_137754
 <http://purl.obolibrary.org/obo/CHEBI_137754> rdf:type owl:Class ;
                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_15904> ,
@@ -5395,6 +5464,16 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                               <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:140493" ;
                                               <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
                                               rdfs:label "11-trans-LTD4" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_140601
+<http://purl.obolibrary.org/obo/CHEBI_140601> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_26666> ;
+                                              <http://purl.obolibrary.org/obo/IAO_0000115> "Any saturated fatty acid containing 4 carbons." ;
+                                              <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:140601" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                              rdfs:label "fatty acid 4:0" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_140754
@@ -7016,6 +7095,22 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:15368" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "acrolein" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_15371
+<http://purl.obolibrary.org/obo/CHEBI_15371> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_15489> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_18100> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33184> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_85348> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A multi-methyl-branched fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of 3-oxopristanic acid." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:10739" ,
+                                                                                                             "CHEBI:1650" ,
+                                                                                                             "CHEBI:20179" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:15371" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "3-oxopristanoyl-CoA" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_15372
@@ -13513,6 +13608,24 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                               rdfs:label "3-hydroxypalmitoyl-CoA" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_165623
+<http://purl.obolibrary.org/obo/CHEBI_165623> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                              <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:165623" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
+                                              rdfs:label "CAR(3:0(OH))" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_165624
+<http://purl.obolibrary.org/obo/CHEBI_165624> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                              <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:165624" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
+                                              rdfs:label "CAR(5:0)" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_16566
 <http://purl.obolibrary.org/obo/CHEBI_16566> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_46968> ;
@@ -13676,6 +13789,21 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:16605" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "allyl alcohol" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_16607
+<http://purl.obolibrary.org/obo/CHEBI_16607> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_22512> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An  aminoimidazole  that is 1<em>H</em>-imidazole substituted by an amino group at position 4." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:11963" ,
+                                                                                                             "CHEBI:1788" ,
+                                                                                                             "CHEBI:2033" ,
+                                                                                                             "CHEBI:20543" ,
+                                                                                                             "CHEBI:28840" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:16607" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "4-aminoimidazole" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_16608
@@ -16865,6 +16993,15 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "L-glutamic 5-semialdehyde" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_172322
+<http://purl.obolibrary.org/obo/CHEBI_172322> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                              <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:172322" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
+                                              rdfs:label "Undecanoylcarnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_17234
 <http://purl.obolibrary.org/obo/CHEBI_17234> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33917> ;
@@ -17832,6 +17969,19 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:17408" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "monoacylglycerol" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_17409
+<http://purl.obolibrary.org/obo/CHEBI_17409> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_194303> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_39418> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A 10-carbon, ω-hydroxy fatty acid, shown to be the preferred hydroxylation product (together with the 9-OH isomer) of capric acid in biosystems, and used as a standard in lipid assays; reported to have cytotoxic effects." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:19113" ,
+                                                                                                             "CHEBI:702" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:17409" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "10-hydroxycapric acid" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_17420
@@ -20247,6 +20397,19 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "4-methyl-2-oxopentanoate" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_17869
+<http://purl.obolibrary.org/obo/CHEBI_17869> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_194303> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35971> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_59202> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An ω-hydroxy fatty acid comprising hexanoic acid having a hydroxy group at the 6-position." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:2191" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:17869" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "6-hydroxyhexanoic acid" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_178721
 <http://purl.obolibrary.org/obo/CHEBI_178721> rdf:type owl:Class ;
                                               rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_3098> ;
@@ -20651,6 +20814,15 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:17969" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "sedoheptulose 1,7-bisphosphate" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_179704
+<http://purl.obolibrary.org/obo/CHEBI_179704> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_23849> ;
+                                              <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:179704" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
+                                              rdfs:label "3,7R,11R,15-tetramethyl-hexadecanoic acid" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_17972
@@ -21252,6 +21424,19 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:18095" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "trans-4-hydroxy-L-proline" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_18100
+<http://purl.obolibrary.org/obo/CHEBI_18100> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_25271> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A branched-chain fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of any multi-methyl-branched fatty acid." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:14625" ,
+                                                                                                             "CHEBI:25428" ,
+                                                                                                             "CHEBI:7019" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:18100" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "multi-methyl-branched fatty acyl-CoA" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_18101
@@ -21980,6 +22165,22 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:18261" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "N-carbamoyl-beta-alanine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_18262
+<http://purl.obolibrary.org/obo/CHEBI_18262> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_194240> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_58954> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_59558> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_76619> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_78119> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A medium-chain fatty acid anion that is the conjugate base of dodecanoic acid (lauric acid); major species at pH 7.3." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:14187" ,
+                                                                                                             "CHEBI:23863" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:18262" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "dodecanoate" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_182620
@@ -22938,6 +23139,18 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                               <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:184141" ;
                                               <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
                                               rdfs:label "PS(22:4(7Z,10Z,13Z,16Z)/0:0)" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_18415
+<http://purl.obolibrary.org/obo/CHEBI_18415> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_24373> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:12596" ,
+                                                                                                             "CHEBI:21707" ,
+                                                                                                             "CHEBI:7275" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:18415" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "N-formimidoylglycine" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_18420
@@ -23921,6 +24134,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                               <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:194189" ;
                                               <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                               rdfs:label "all-trans-13,14-dihydroretinoic acid" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_194240
+<http://purl.obolibrary.org/obo/CHEBI_194240> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_59558> ,
+                                                              <http://purl.obolibrary.org/obo/CHEBI_76619> ;
+                                              <http://purl.obolibrary.org/obo/IAO_0000115> "A medium-chain fatty acid anion obtained by deprotonation of the carboxy group of any ω-methyl fatty acid; major species at pH 7.3." ;
+                                              <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:194240" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
+                                              rdfs:label "omega-methyl-medium-chain fatty acid anion" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_194285
@@ -25332,6 +25556,18 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "N(alpha)-methyl-L-histidines" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_21949
+<http://purl.obolibrary.org/obo/CHEBI_21949> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_133445> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_229629> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_7676> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An optically active form of <em>O</em>-butanoylcarnitine having <small>L</small>-configuration." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:21949" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-butanoyl-L-carnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_2195
 <http://purl.obolibrary.org/obo/CHEBI_2195> rdf:type owl:Class ;
                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_26513> ;
@@ -26670,6 +26906,15 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "butanoyl-CoAs" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_229578
+<http://purl.obolibrary.org/obo/CHEBI_229578> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_27369> ;
+                                              <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:229578" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
+                                              rdfs:label "a 2-iminiocarboxylate" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_22958
 <http://purl.obolibrary.org/obo/CHEBI_22958> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_66873> ;
@@ -26711,6 +26956,24 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                               <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:229627" ;
                                               <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
                                               rdfs:label "long-chain fatty acyl-L-carnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_229628
+<http://purl.obolibrary.org/obo/CHEBI_229628> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_176910> ;
+                                              <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:229628" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
+                                              rdfs:label "medium-chain fatty acyl-L-carnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_229629
+<http://purl.obolibrary.org/obo/CHEBI_229629> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_176910> ;
+                                              <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:229629" ;
+                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
+                                              rdfs:label "short-chain fatty acyl-L-carnitine" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_22984
@@ -29719,6 +29982,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "hydroxypyridine" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_24747
+<http://purl.obolibrary.org/obo/CHEBI_24747> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_15904> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_24654> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A hydroxy fatty acid that is ocatadecanoic acid (stearic acid) in which the aliphatic chain has been substituted by one or more hydroxy groups." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:24747" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "hydroxyoctadecanoic acid" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_24757
 <http://purl.obolibrary.org/obo/CHEBI_24757> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_26523> ,
@@ -29758,6 +30032,16 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:24780" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "imidazoles" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_24781
+<http://purl.obolibrary.org/obo/CHEBI_24781> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_20432> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_38101> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:24781" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "imidazolinone" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_24782
@@ -35279,6 +35563,19 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "19-hydroxyandrost-4-ene-3,17-dione" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_27580
+<http://purl.obolibrary.org/obo/CHEBI_27580> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_38306> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_47857> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An imidazole-4-carboxylic acid compound having a ureido substituent at the 5-position." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:20631" ,
+                                                                                                             "CHEBI:2126" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:27580" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "5-ureidoimidazole-4-carboxylic acid" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_27582
 <http://purl.obolibrary.org/obo/CHEBI_27582> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_16799> ,
@@ -35686,6 +35983,19 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "3-hydroxypropanoyl-CoA" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_27770
+<http://purl.obolibrary.org/obo/CHEBI_27770> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_231546> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_61907> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A medium-chain fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of nonanoic acid." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:25581" ,
+                                                                                                             "CHEBI:7617" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:27770" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "nonanoyl-CoA" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_27771
 <http://purl.obolibrary.org/obo/CHEBI_27771> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_16799> ,
@@ -35965,6 +36275,18 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "biocytin" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_27874
+<http://purl.obolibrary.org/obo/CHEBI_27874> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_62204> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <i>S</i>-alkyl-CoA having 3-hydroxy-3-methylbutyl as the <i>S</i>-alkyl component." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:1544" ,
+                                                                                                             "CHEBI:20072" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:27874" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "3-hydroxy-3-methylbutyl-CoA" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_27881
 <http://purl.obolibrary.org/obo/CHEBI_27881> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_26195> ,
@@ -36139,6 +36461,19 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:27958" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "cocaine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_27962
+<http://purl.obolibrary.org/obo/CHEBI_27962> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_139575> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_15469> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_61905> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:25870" ,
+                                                                                                             "CHEBI:7970" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:27962" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "pent-2-enoyl-CoA" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_27967
@@ -37283,6 +37618,18 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "maltotetraose" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_28470
+<http://purl.obolibrary.org/obo/CHEBI_28470> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_24781> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:1884" ,
+                                                                                                             "CHEBI:20428" ,
+                                                                                                             "CHEBI:2083" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:28470" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "3,5-dihydro-4H-imidazol-4-one" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_28477
 <http://purl.obolibrary.org/obo/CHEBI_28477> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_36843> ,
@@ -37901,6 +38248,20 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "palmitoleic acid" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_28717
+<http://purl.obolibrary.org/obo/CHEBI_28717> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_133445> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_229628> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_68830> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acyl-<small>L</small>-carnitine that is <small>L</small>-carnitine having decanoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:21951" ,
+                                                                                                             "CHEBI:7681" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:28717" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-decanoyl-L-carnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_28721
 <http://purl.obolibrary.org/obo/CHEBI_28721> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_24977> ;
@@ -38341,6 +38702,20 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:28835" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "testosterone 17-glucosiduronic acid" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_28837
+<http://purl.obolibrary.org/obo/CHEBI_28837> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_39418> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_59554> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A straight-chain saturated fatty acid that is heptane in which one of the hydrogens of a terminal methyl group has been replaced by a carboxy group. Octanoic acid is also known as caprylic acid." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:25648" ,
+                                                                                                             "CHEBI:3373" ,
+                                                                                                             "CHEBI:44501" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:28837" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "octanoic acid" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_28838
@@ -39451,6 +39826,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "calcium(0)" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_29325
+<http://purl.obolibrary.org/obo/CHEBI_29325> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_23014> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_36877> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An organic radical anion obtained from carbon dioxide. It is a metabolite of carbon tetrachloride." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:29325" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "oxidooxomethyl" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_29329
 <http://purl.obolibrary.org/obo/CHEBI_29329> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_35196> ;
@@ -40424,6 +40810,21 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "citric acid" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_30772
+<http://purl.obolibrary.org/obo/CHEBI_30772> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_140601> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_39418> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A straight-chain saturated fatty acid that is butane in which one of the terminal methyl groups has been oxidised to a carboxy group." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:113450" ,
+                                                                                                             "CHEBI:22948" ,
+                                                                                                             "CHEBI:3234" ,
+                                                                                                             "CHEBI:41208" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:30772" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "butyric acid" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_30775
 <http://purl.obolibrary.org/obo/CHEBI_30775> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_16277> ,
@@ -40435,6 +40836,20 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:30775" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "fluoroacetic acid" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_30776
+<http://purl.obolibrary.org/obo/CHEBI_30776> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_39418> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_59554> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A C<small><sub>6</sub></small>, straight-chain saturated fatty acid." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:24571" ,
+                                                                                                             "CHEBI:40213" ,
+                                                                                                             "CHEBI:5702" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:30776" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "hexanoic acid" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_30778
@@ -40487,6 +40902,20 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:30805" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "dodecanoic acid" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_30813
+<http://purl.obolibrary.org/obo/CHEBI_30813> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_39418> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_59554> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A C<small><sub>10</sub></small>, straight-chain saturated fatty acid." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:23572" ,
+                                                                                                             "CHEBI:41906" ,
+                                                                                                             "CHEBI:4347" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:30813" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "decanoic acid" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_30816
@@ -47233,6 +47662,15 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "4-hydroxy monocarboxylic acid" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_35971
+<http://purl.obolibrary.org/obo/CHEBI_35971> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_35868> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:35971" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "6-hydroxy monocarboxylic acid" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_35972
 <http://purl.obolibrary.org/obo/CHEBI_35972> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_35868> ;
@@ -48440,6 +48878,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                             rdfs:label "chlorpromazine" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_36470
+<http://purl.obolibrary.org/obo/CHEBI_36470> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_22315> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_38530> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Any alkaloid based on a quinazoline skeleton and its substituted derivatives." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:36470" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "quinazoline alkaloid" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_36477
 <http://purl.obolibrary.org/obo/CHEBI_36477> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_26829> ,
@@ -49451,6 +49900,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "inorganic radical anion" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_36877
+<http://purl.obolibrary.org/obo/CHEBI_36877> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_25696> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_36873> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_36880> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:36877" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "organic radical anion" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_36878
 <http://purl.obolibrary.org/obo/CHEBI_36878> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_36871> ,
@@ -49469,6 +49929,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:36879" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "inorganic radical cation" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_36880
+<http://purl.obolibrary.org/obo/CHEBI_36880> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_25699> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_36872> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_36875> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:36880" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "organic radical ion" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_36883
@@ -50464,6 +50935,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:37253" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "elemental zinc" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_37283
+<http://purl.obolibrary.org/obo/CHEBI_37283> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_231546> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_61907> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A medium-chain fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of heptanoic acid." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:37283" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "heptanoyl-CoA" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_37290
@@ -53137,6 +53619,28 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "chlorocarbon" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_39266
+<http://purl.obolibrary.org/obo/CHEBI_39266> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_38101> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_38163> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Any organic heterotetracyclic compound where at least one of the specified hetero atoms is nitrogen." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:39266" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "azatetracycloalkane" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_39267
+<http://purl.obolibrary.org/obo/CHEBI_39267> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_38104> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_38163> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Any organic heterotetracyclic compound where at least one of the specified hetero atoms is oxygen." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:39267" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "oxatetracycloalkane" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_39279
 <http://purl.obolibrary.org/obo/CHEBI_39279> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_24469> ,
@@ -53723,6 +54227,19 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "1,2-dioctadecanoyl-sn-glycerol" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_41865
+<http://purl.obolibrary.org/obo/CHEBI_41865> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_189840> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_28383> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An α,ω-dicarboxylic acid that is the 1,8-dicarboxy derivative of octane." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:41860" ,
+                                                                                                             "CHEBI:9071" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:41865" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "sebacic acid" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_41879
 <http://purl.obolibrary.org/obo/CHEBI_41879> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_24261> ,
@@ -53886,6 +54403,19 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:42411" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/1_STAR> ;
                                              rdfs:label "N-(N-formylglycyl)-5-O-phosphono-beta-D-ribofuranosylamine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_42504
+<http://purl.obolibrary.org/obo/CHEBI_42504> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_15904> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_39418> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A straight-chain saturated fatty acid containing fifteen-carbon atoms." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:39108" ,
+                                                                                                             "CHEBI:42502" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:42504" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "pentadecanoic acid" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_42638
@@ -54847,6 +55377,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:46756" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "HEPES" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_4676
+<http://purl.obolibrary.org/obo/CHEBI_4676> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_189840> ,
+                                                            <http://purl.obolibrary.org/obo/CHEBI_28383> ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000115> "An α,ω-dicarboxylic acid that is dodecane in which the methyl groups have been oxidised to the corresponding carboxylic acids." ;
+                                            <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                            <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:4676" ;
+                                            <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                            rdfs:label "dodecanedioic acid" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_46761
@@ -57060,6 +57601,16 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "2-methyl-branched fatty aldehyde" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_49189
+<http://purl.obolibrary.org/obo/CHEBI_49189> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_133249> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_49188> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:49189" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "pristanal" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_49191
 <http://purl.obolibrary.org/obo/CHEBI_49191> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_49192> ,
@@ -57974,6 +58525,18 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "primary arylamine" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_50477
+<http://purl.obolibrary.org/obo/CHEBI_50477> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35748> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Any carboxylic ester where the carboxylic acid component is butyric acid." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:87655" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:50477" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "butyrate ester" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_50492
 <http://purl.obolibrary.org/obo/CHEBI_50492> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33261> ;
@@ -58784,6 +59347,15 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "beta-D-GalNAc-(1->4)-[alpha-Neu5Ac-(2->3)]-beta-D-Gal-(1->4)-beta-D-Glc-(1<->1')-Cer" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_51023
+<http://purl.obolibrary.org/obo/CHEBI_51023> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_24781> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:51023" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "1,5-dihydro-4H-imidazol-4-one" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_51026
 <http://purl.obolibrary.org/obo/CHEBI_51026> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33595> ;
@@ -58947,6 +59519,18 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:5132" ;
                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                             rdfs:label "flutamide" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_51340
+<http://purl.obolibrary.org/obo/CHEBI_51340> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_15904> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_39417> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_62499> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A branched, long-chain saturated fatty acid composed of pentadecanoic acid having methyl substituents at the 2-, 6-, 10- and 14-positions." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:51340" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "pristanic acid" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_5136
@@ -60001,6 +60585,19 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "poly(caprolactone) macromolecule" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_53210
+<http://purl.obolibrary.org/obo/CHEBI_53210> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_133445> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_229629> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_28867> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An optically active <em>O</em>-acylcarnitine compound having propanoyl as the acyl substituent and (<i>R</i>)-configuration at the 3-position." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:85465" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:53210" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-propanoyl-L-carnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_53224
 <http://purl.obolibrary.org/obo/CHEBI_53224> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_32988> ,
@@ -60410,6 +61007,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                               <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:545959" ;
                                               <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                               rdfs:label "homovanillic acid" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_55328
+<http://purl.obolibrary.org/obo/CHEBI_55328> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_140997> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_72726> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An ω-hydroxy-long-chain fatty acid that is hexadecanoic acid (also known as palmitic acid) which is substituted at position 16 by a hydroxy group. It is a key monomer of cutin in the plant cuticle." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:55328" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "16-hydroxyhexadecanoic acid" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_55337
@@ -63159,6 +63767,16 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "2-formamido-N(1)-(5-O-phosphonato-D-ribosyl)acetamidine" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_58479
+<http://purl.obolibrary.org/obo/CHEBI_58479> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_27369> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Zwitterion form of <em>N</em>-formimidoylglycine." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:58479" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "N-formimidoylglycine zwitterion" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_58489
 <http://purl.obolibrary.org/obo/CHEBI_58489> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_27369> ;
@@ -63612,6 +64230,16 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:58953" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "saturated fatty acid anion" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_58954
+<http://purl.obolibrary.org/obo/CHEBI_58954> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_58953> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Any saturated fatty acid anion lacking a carbon side-chain." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:58954" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "straight-chain saturated fatty acid anion" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_58955
@@ -65993,6 +66621,16 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "N-acyl-D-mannosamine phosphate" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_62204
+<http://purl.obolibrary.org/obo/CHEBI_62204> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_22327> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An alkyl sulfide consisting of coenzyme A carrying an <i>S</i>-alkyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:62204" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "S-alkyl-CoA" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_62205
 <http://purl.obolibrary.org/obo/CHEBI_62205> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_62206> ;
@@ -67311,6 +67949,20 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "3-hydroxy-4-methoxybenzoic acid" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_63803
+<http://purl.obolibrary.org/obo/CHEBI_63803> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_139575> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_18100> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33184> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_50998> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_85348> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A long-chain fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of (<i>E</i>)-2,3-didehydropristanic acid." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:63803" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "(E)-2,3-didehydropristanoyl-CoA" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_63825
 <http://purl.obolibrary.org/obo/CHEBI_63825> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_134363> ,
@@ -67353,6 +68005,31 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:63860" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "(S)-nicotinium N-alpha-D-glucosiduronate" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_63874
+<http://purl.obolibrary.org/obo/CHEBI_63874> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_137644> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine compound having 4,8-dimethylnonanoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:63874" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-(4,8-dimethylnonanoyl)carnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_63914
+<http://purl.obolibrary.org/obo/CHEBI_63914> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_18100> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33184> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_61902> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_85348> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A multi-methyl-branched fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of 3-hydroxypristanic acid." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:63914" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "3-hydroxypristanoyl-CoA" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_63944
@@ -69698,6 +70375,16 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "3-methylglutaric acid" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_68568
+<http://purl.obolibrary.org/obo/CHEBI_68568> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine compound having adipoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:68568" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-adipoylcarnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_68647
 <http://purl.obolibrary.org/obo/CHEBI_68647> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_134043> ,
@@ -69721,6 +70408,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:68678" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "UDP-N-acetyl-alpha-D-mannosamine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_68830
+<http://purl.obolibrary.org/obo/CHEBI_68830> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_87658> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine compound having decanoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:68830" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-decanoylcarnitine" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_68844
@@ -69880,6 +70578,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "Gly-Pro" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_70749
+<http://purl.obolibrary.org/obo/CHEBI_70749> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_87656> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine compound having hexanoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:70749" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-hexanoylcarnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_70765
 <http://purl.obolibrary.org/obo/CHEBI_70765> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17882> ;
@@ -69943,6 +70652,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "EC 1.2.1.12 [glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)] inhibitor" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_70819
+<http://purl.obolibrary.org/obo/CHEBI_70819> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_133447> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_73025> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-isovalerylcarnitine that is the 3-methylbutanoyl (isovaleryl) derivative of <small>L</small>-carnitine." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:70819" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "isovaleryl-L-carnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_70824
 <http://purl.obolibrary.org/obo/CHEBI_70824> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_16180> ,
@@ -69952,6 +70672,18 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:70824" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "m-hydroxyhippuric acid" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_70850
+<http://purl.obolibrary.org/obo/CHEBI_70850> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_15904> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_39417> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_62499> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A branched-chain saturated fatty acid comprising hexadecanoic (palmitic) acid substituted at position 15 by a methyl group." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:70850" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "isoheptadecanoic acid" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_70857
@@ -70014,6 +70746,26 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:70989" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "N(4)-acetylcytidine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_70997
+<http://purl.obolibrary.org/obo/CHEBI_70997> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_86493> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A C<small><sub>9</sub></small>-acylcarnitine having nonanoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:70997" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-nonanoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_71012
+<http://purl.obolibrary.org/obo/CHEBI_71012> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_85526> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An  octenoyl-<small>L</small>carnitine having 2-octenoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:71012" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "2-octenoyl-L-carnitine" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_71018
@@ -70899,6 +71651,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "12,13-DiHOME" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_72689
+<http://purl.obolibrary.org/obo/CHEBI_72689> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_86475> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having oleoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:73073" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:72689" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-oleoylcarnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_72695
 <http://purl.obolibrary.org/obo/CHEBI_72695> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_25367> ,
@@ -70944,6 +71707,18 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:72720" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "flavonoid oligomer" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_72726
+<http://purl.obolibrary.org/obo/CHEBI_72726> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_15904> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_24654> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_59202> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A hydroxy fatty acid that is palmitic (hexadecanoic) acid substituted with one hydroxy group." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:72726" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "hydroxypalmitic acid" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_72730
@@ -71456,6 +72231,18 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "N-hexacosanoylsphingosine" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_72995
+<http://purl.obolibrary.org/obo/CHEBI_72995> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having 3-hydroxybutyryl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:72995" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "3-hydroxybutyrylcarnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_72998
 <http://purl.obolibrary.org/obo/CHEBI_72998> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_58168> ,
@@ -71543,6 +72330,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "2-methylbutyrylcarnitine" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_73027
+<http://purl.obolibrary.org/obo/CHEBI_73027> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having 3-hydroxyisovaleryl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:82958" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73027" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "3-hydroxyisovalerylcarnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_73028
 <http://purl.obolibrary.org/obo/CHEBI_73028> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
@@ -71577,6 +72375,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "O-succinylcarnitine" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_73039
+<http://purl.obolibrary.org/obo/CHEBI_73039> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_87657> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having octanoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73039" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-octanoylcarnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_73040
 <http://purl.obolibrary.org/obo/CHEBI_73040> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
@@ -71585,6 +72394,162 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73040" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "O-glutarylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73042
+<http://purl.obolibrary.org/obo/CHEBI_73042> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having (2<i>E</i>)-hexenedioyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73042" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-[(2E)-hexenedioyl]carnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73043
+<http://purl.obolibrary.org/obo/CHEBI_73043> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_137640> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having 3-hydroxy-<i>cis</i>-5-octenoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73043" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "3-hydroxy-cis-5-octenoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73047
+<http://purl.obolibrary.org/obo/CHEBI_73047> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_86064> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having (2<i>E</i>,4<i>Z</i>)-decadienoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73047" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "(2E,4Z)-decadienoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73048
+<http://purl.obolibrary.org/obo/CHEBI_73048> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_86063> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-decenoylcarnitine having (4<i>Z</i>)-decenoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73048" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-[(4Z)-decenoyl]carnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73054
+<http://purl.obolibrary.org/obo/CHEBI_73054> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_87659> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having dodecanoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73054" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-dodecanoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73056
+<http://purl.obolibrary.org/obo/CHEBI_73056> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having 3-hydroxydodecanoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73056" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "3-hydroxydodecanoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73057
+<http://purl.obolibrary.org/obo/CHEBI_73057> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having sebacoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73057" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-sebacoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73059
+<http://purl.obolibrary.org/obo/CHEBI_73059> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_86069> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-tetradecadienoylcarnitine  having (5<i>Z</i>,8<i>Z</i>)-tetradecadienoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73059" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "(5Z,8Z)-tetradecadienoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73060
+<http://purl.obolibrary.org/obo/CHEBI_73060> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having (5<i>Z</i>)-tetradecenoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73060" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "(5Z)-tetradecenoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73061
+<http://purl.obolibrary.org/obo/CHEBI_73061> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_87691> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having tetradecanoyl (myristoyl) as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73061" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-tetradecanoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73063
+<http://purl.obolibrary.org/obo/CHEBI_73063> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_137647> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having 3-hydroxytetradecanoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73063" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "3-hydroxytetradecanoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73064
+<http://purl.obolibrary.org/obo/CHEBI_73064> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73064" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-(11-carboxyundecanoyl)carnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73065
+<http://purl.obolibrary.org/obo/CHEBI_73065> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_86035> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-hexadecadienoylcarnitine having (7<i>Z</i>,10<i>Z</i>)-hexadecadienoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73065" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "(7Z,10Z)-hexadecadienoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73066
+<http://purl.obolibrary.org/obo/CHEBI_73066> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having palmitoleoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73066" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-palmitoleoylcarnitine" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_73067
@@ -71597,6 +72562,75 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "O-palmitoylcarnitine" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_73068
+<http://purl.obolibrary.org/obo/CHEBI_73068> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having 3-hydroxypalmitoleoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73068" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "3-hydroxypalmitoleoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73071
+<http://purl.obolibrary.org/obo/CHEBI_73071> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having 13-carboxytridecanoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73071" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-(13-carboxytridecanoyl)carnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73072
+<http://purl.obolibrary.org/obo/CHEBI_73072> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having linoleoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73072" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-linoleoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73075
+<http://purl.obolibrary.org/obo/CHEBI_73075> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having 3-hydroxylinoleoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73075" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "3-hydroxylinoleoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73076
+<http://purl.obolibrary.org/obo/CHEBI_73076> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having (9<i>Z</i>)-3-hydroxyoctadecenoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:171575" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73076" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "(9Z)-3-hydroxyoctadecenoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73077
+<http://purl.obolibrary.org/obo/CHEBI_73077> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having 3-hydroxyoctadecanoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73077" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "3-hydroxyoctadecanoylcarnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_73080
 <http://purl.obolibrary.org/obo/CHEBI_73080> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33822> ,
@@ -71606,6 +72640,28 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73080" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "hemiaminal" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73081
+<http://purl.obolibrary.org/obo/CHEBI_73081> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having 15-carboxypentadecanoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73081" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-(15-carboxypentadecanoyl)carnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73082
+<http://purl.obolibrary.org/obo/CHEBI_73082> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having arachidonoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73082" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-arachidonoylcarnitine" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_73083
@@ -71640,6 +72696,40 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "1-tetradecanoyl-sn-glycero-3-phospho-(1'-sn-glycerol)" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_73101
+<http://purl.obolibrary.org/obo/CHEBI_73101> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having 3-hydroxyarachidonoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73101" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "3-hydroxyarachidonoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73104
+<http://purl.obolibrary.org/obo/CHEBI_73104> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having 17-carboxyheptadecanoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73104" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-(17-carboxyheptadecanoyl)carnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73108
+<http://purl.obolibrary.org/obo/CHEBI_73108> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_86070> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-(hydroxytetradecadienoyl)carnitine having (5<i>Z</i>,8<i>Z</i>)-3-hydroxytetradecadienoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73108" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-[(5Z,8Z)-3-hydroxytetradecadienoyl]carnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_73110
 <http://purl.obolibrary.org/obo/CHEBI_73110> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_82639> ,
@@ -71649,6 +72739,18 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73110" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "ganglioside GM1(1-)" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73116
+<http://purl.obolibrary.org/obo/CHEBI_73116> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having (9<i>Z</i>,12<i>Z</i>,15<i>Z</i>)-3-hydroxyoctadecatrienoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73116" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "(9Z,12Z,15Z)-3-hydroxyoctadecatrienoylcarnitine" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_73134
@@ -71907,6 +73009,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73693" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "ketone body" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_73722
+<http://purl.obolibrary.org/obo/CHEBI_73722> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_189840> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_28383> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An α,ω-dicarboxylic acid that is the 1,14-dicarboxy derivative of tetradecane." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:73722" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "hexadecanedioic acid" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_73731
@@ -72325,6 +73438,18 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:74266" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "N-acylurea" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_74303
+<http://purl.obolibrary.org/obo/CHEBI_74303> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An  <em>O</em>-acylcarnitine that is the <em>O</em>-heptanoyl derivative of carnitine." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:74303" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-heptanoylcarnitine" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_74359
@@ -73574,6 +74699,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "inositol phosphate oxoanion" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_76308
+<http://purl.obolibrary.org/obo/CHEBI_76308> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_189840> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_28383> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An α,ω-dicarboxylic acid that is tetradecane in which the methyl groups have been oxidised to the corresponding carboxylic acids." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:76308" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "tetradecanedioic acid" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_76328
 <http://purl.obolibrary.org/obo/CHEBI_76328> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17478> ,
@@ -73634,6 +74770,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:76534" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "(11Z,14Z)-icosadienoyl-CoA" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_76545
+<http://purl.obolibrary.org/obo/CHEBI_76545> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_229578> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_27369> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An amino acid zwitterion obtained by transfer of a proton from the carboxy to the imino group of 2-iminobutanoic acid." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:76545" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "2-iminobutanoic acid zwitterion" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_76567
@@ -73846,6 +74993,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "EC 3.* (hydrolase) inhibitor" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_7676
+<http://purl.obolibrary.org/obo/CHEBI_7676> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_50477> ,
+                                                            <http://purl.obolibrary.org/obo/CHEBI_86490> ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000115> "A C<small><sub>4</sub></small>-acylcarnitine  that is the <em>O</em>-butanoyl derivative of carnitine." ;
+                                            <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                            <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:7676" ;
+                                            <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                            rdfs:label "O-butanoylcarnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_76760
 <http://purl.obolibrary.org/obo/CHEBI_76760> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_76759> ;
@@ -73967,6 +75125,18 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "EC 1.2.1.* (oxidoreductase acting on donor aldehyde/oxo group with NAD(+) or NADP(+) as acceptor) inhibitor" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_76872
+<http://purl.obolibrary.org/obo/CHEBI_76872> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_23591> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_25384> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_33272> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A dehydroamino acid that is 2-aminobutanoic acid in which the amino group has been oxidised to the corresponding imine." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:76872" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "2-iminobutanoic acid" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_76881
 <http://purl.obolibrary.org/obo/CHEBI_76881> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_76668> ;
@@ -73996,6 +75166,19 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:77068" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "sphingoid 1-phosphate" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_77086
+<http://purl.obolibrary.org/obo/CHEBI_77086> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_133445> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_229628> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_73054> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_87659> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acyl-<small>L</small>-carnitine in which the acyl group is specified as lauroyl (dodecanoyl)." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:77086" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-lauroyl-L-carnitine" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_77124
@@ -74028,6 +75211,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:77168" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "14-hydroxymyristic acid" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_77237
+<http://purl.obolibrary.org/obo/CHEBI_77237> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_73081> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_75659> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acyl-<small>L</small>-carnitine in which the acyl group is specified as hexadecanedioyl." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:77237" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-hexadecanedioyl-L-carnitine" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_77239
@@ -74525,6 +75719,16 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "fatty acid anion 10:0" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_78119
+<http://purl.obolibrary.org/obo/CHEBI_78119> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_58953> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Any saturated fatty acid anion containing 12 carbons. Formed by deprotonation of the carboxylic acid moiety. Major species at pH 7.3." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:78119" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "fatty acid anion 12:0" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_78123
 <http://purl.obolibrary.org/obo/CHEBI_78123> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_58953> ;
@@ -74613,6 +75817,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:78174" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "1-(alk-1-enyl)-glycero-3-phosphate(2-)" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_78176
+<http://purl.obolibrary.org/obo/CHEBI_78176> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_231546> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_61907> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A medium-chain fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of undecanoic acid." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:78176" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "undecanoyl-CoA" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_78178
@@ -75427,6 +76642,28 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:7916" ;
                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                             rdfs:label "pantothenic acid" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_79162
+<http://purl.obolibrary.org/obo/CHEBI_79162> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_194303> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_59202> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An ω-hydroxy fatty acid that is caprylic acid in which one of the hydrogens of the terminal methyl group is replaced by a hydroxy group." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:79162" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "8-hydroxyoctanoic acid" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_79182
+<http://purl.obolibrary.org/obo/CHEBI_79182> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_140997> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_24747> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An ω-hydroxy-long-chain fatty acid that is octadecanoic (stearic) acid in which one of the hydrogens of the terminal methyl group has been replaced by a hydroxy group." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:79182" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "18-hydroxyoctadecanoic acid" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_79208
@@ -77852,6 +79089,19 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "testosterone sulfate" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_84095
+<http://purl.obolibrary.org/obo/CHEBI_84095> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33308> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_35284> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_86493> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A C<small><sub>9</sub></small>-acylcarnitine in which the acyl group specified is 2,6-dimethylheptanoyl." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasAlternativeId> "CHEBI:86054" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:84095" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "2,6-dimethylheptanoyl carnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_84123
 <http://purl.obolibrary.org/obo/CHEBI_84123> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_63299> ;
@@ -78155,6 +79405,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "trans-2,3-unsaturated fatty aldehyde" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_84644
+<http://purl.obolibrary.org/obo/CHEBI_84644> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_133445> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_229627> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acyl-<small>L</small>-carnitine in which the acyl group is specified as stearoyl (octadecanoyl)." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:84644" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-octadecanoyl-L-carnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_84646
 <http://purl.obolibrary.org/obo/CHEBI_84646> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_16018> ;
@@ -78327,6 +79588,30 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "aromatic L-alpha-amino acid zwitterion" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_84834
+<http://purl.obolibrary.org/obo/CHEBI_84834> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_133445> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_229628> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_70749> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-hexanoylcarnitine that has <small>L</small> configuration." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:84834" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-hexanoyl-L-carnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_84874
+<http://purl.obolibrary.org/obo/CHEBI_84874> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_15904> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_39417> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_62499> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A methyl-branched fatty acid that is hexadecanoic acid (palmitic acid) substituted by a methyl group at position 14." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:84874" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "14-methylhexadecanoic acid" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_84880
 <http://purl.obolibrary.org/obo/CHEBI_84880> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_21168> ;
@@ -78335,6 +79620,19 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:84880" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "GDP-D-mannose" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_84890
+<http://purl.obolibrary.org/obo/CHEBI_84890> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_140943> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_15904> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_39417> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_62499> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A methyl-branched fatty acid that is pentadecanoic acid substituted by a methyl group at position 14. It is a biomarker for rheumatoid arthritis." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:84890" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "14-methylpentadecanoic acid" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_84947
@@ -78628,6 +79926,28 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "O-methylmalonyl-L-carnitine" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_85504
+<http://purl.obolibrary.org/obo/CHEBI_85504> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_18100> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_231546> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_61907> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A medium-chain fatty acyl-CoA that results from the formal condensation of the thiol group of coenzyme A with the carboxy group of 2,6-dimethylheptanoic acid." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:85504" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "2,6-dimethylheptanoyl-CoA" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_85526
+<http://purl.obolibrary.org/obo/CHEBI_85526> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_133446> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acyl-<small>L</small>-carnitine that is <small>L</small>-carnitine having a octenoyl group as the acyl substituent in which the position of the double bond is unspecified." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:85526" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "octenoyl-L-carnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_85531
 <http://purl.obolibrary.org/obo/CHEBI_85531> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_15499> ;
@@ -78837,6 +80157,104 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:86029" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "liver X receptor agonist" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_86031
+<http://purl.obolibrary.org/obo/CHEBI_86031> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_86032> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-hexadecenoylcarnitine having (2<i>E</i>)-hexadecenoyl as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:86031" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "(2E)-hexadecenoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_86032
+<http://purl.obolibrary.org/obo/CHEBI_86032> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An  <em>O</em>-acylcarnitine having a hexadecenoyl group with an unspecified double bond as the acyl substituent." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:86032" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-hexadecenoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_86035
+<http://purl.obolibrary.org/obo/CHEBI_86035> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine having a hexadecadienoyl group as acyl substituent in which the positions of the two double bonds are unspecified." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:86035" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-hexadecadienoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_86054
+<http://purl.obolibrary.org/obo/CHEBI_86054> rdf:type owl:Class ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000231> <http://purl.obolibrary.org/obo/IAO_0000227> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/CHEBI_84095> ;
+                                             owl:deprecated "true"^^xsd:boolean .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_86063
+<http://purl.obolibrary.org/obo/CHEBI_86063> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine in which the acyl group is specified as decenoyl (position of double bond not specified)." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:86063" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-decenoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_86064
+<http://purl.obolibrary.org/obo/CHEBI_86064> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine in which the acyl group specified is decadienoyl in which the positions of the double bonds is unspecified.." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:86064" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-decadienoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_86069
+<http://purl.obolibrary.org/obo/CHEBI_86069> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine in which the acyl group specified is tetradecadienoyl." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:86069" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-tetradecadienoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_86070
+<http://purl.obolibrary.org/obo/CHEBI_86070> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine in which the acyl group specified is hydroxytetradecadienoyl." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:86070" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-(hydroxytetradecadienoyl)carnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_86073
+<http://purl.obolibrary.org/obo/CHEBI_86073> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acyl carnitine in which the acyl group specified is propenoyl." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:86073" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-propenoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_86076
+<http://purl.obolibrary.org/obo/CHEBI_86076> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_75659> ,
+                                                             <http://purl.obolibrary.org/obo/CHEBI_86073> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acyl-<small>L</small>-carnitine in which the acyl group specified is propenoyl." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:86076" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-propenoyl-D-carnitine" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_86136
@@ -79080,6 +80498,16 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "peptidoglycosaminoglycan" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_86475
+<http://purl.obolibrary.org/obo/CHEBI_86475> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An  <em>O</em>-acylcarnitine in which the acyl group specified is octadecenoyl." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:86475" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-octadecenoylcarnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_86478
 <http://purl.obolibrary.org/obo/CHEBI_86478> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_33285> ;
@@ -79118,6 +80546,16 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:86492" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "C5-acylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_86493
+<http://purl.obolibrary.org/obo/CHEBI_86493> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Any <em>O</em>-acylcarnitine in which the acyl group contains a total of 9 carbon atoms." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:86493" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "C9-acylcarnitine" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_86494
@@ -79371,6 +80809,16 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "antibiotic fungicide" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_87182
+<http://purl.obolibrary.org/obo/CHEBI_87182> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_85504> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "The 2<i>S</i> stereoisomer of 2,6-dimethylheptanoyl-CoA." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:87182" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "(2S)-2,6-dimethylheptanoyl-CoA" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_87256
 <http://purl.obolibrary.org/obo/CHEBI_87256> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17408> ;
@@ -79578,6 +81026,16 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "(25R)-3beta,26-dihydroxycholest-5-en-7-one" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_87656
+<http://purl.obolibrary.org/obo/CHEBI_87656> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_35748> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "Any fatty acid ester where the carboxylic acid component is hexanoic (also known as caproic) acid." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:87656" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "hexanoate ester" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_87657
 <http://purl.obolibrary.org/obo/CHEBI_87657> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_35748> ;
@@ -79586,6 +81044,16 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:87657" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
                                              rdfs:label "octanoate ester" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_87658
+<http://purl.obolibrary.org/obo/CHEBI_87658> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_35748> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "A fatty acid ester resulting from the formal condensation of the carboxy group of decanoic acid (capric acid) with the hydroxy group of an alcohol or phenol." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:87658" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "decanoate ester" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_87659
@@ -80271,6 +81739,15 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "5-(Hydroxyphenyl)-gamma-valerolactone-O-sulphate" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_88762
+<http://purl.obolibrary.org/obo/CHEBI_88762> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:88762" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
+                                             rdfs:label "2-Hexenoylcarnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_88765
 <http://purl.obolibrary.org/obo/CHEBI_88765> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_26763> ;
@@ -80294,6 +81771,24 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://purl.obolibrary.org/obo/IAO_0000231> <http://purl.obolibrary.org/obo/IAO_0000227> ;
                                              <http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/CHEBI_1712> ;
                                              owl:deprecated "true"^^xsd:boolean .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_88772
+<http://purl.obolibrary.org/obo/CHEBI_88772> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:88772" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
+                                             rdfs:label "Hydroxyhexanoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_88785
+<http://purl.obolibrary.org/obo/CHEBI_88785> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:88785" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
+                                             rdfs:label "Butenylcarnitine" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_8887
@@ -80642,6 +82137,24 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:89636" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
                                              rdfs:label "Ganglioside GD3 (d18:1/16:0)" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_89716
+<http://purl.obolibrary.org/obo/CHEBI_89716> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_35748> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:89716" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
+                                             rdfs:label "trans-2-Tetradecenoylcarnitine" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_89717
+<http://purl.obolibrary.org/obo/CHEBI_89717> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_35748> ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:89717" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
+                                             rdfs:label "trans-2-Dodecenoylcarnitine" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_89745
@@ -81245,6 +82758,16 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "N-[(15Z)-tetracosenoyl]sphinganine-1-phosphocholine" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_91164
+<http://purl.obolibrary.org/obo/CHEBI_91164> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_17387> ;
+                                             <http://purl.obolibrary.org/obo/IAO_0000115> "An <em>O</em>-acylcarnitine in which the acyl group is specified as 2-octadecenoyl." ;
+                                             <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:91164" ;
+                                             <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                             rdfs:label "O-(2-octadecenoyl)carnitine" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_91268
 <http://purl.obolibrary.org/obo/CHEBI_91268> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_24644> ;
@@ -81592,6 +83115,17 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              rdfs:label "4-[4-(4-fluorophenyl)-5-pyridin-4-yl-1,3-dihydroimidazol-2-ylidene]-1-cyclohexa-2,5-dienone" .
 
 
+###  http://purl.obolibrary.org/obo/CHEBI_9300
+<http://purl.obolibrary.org/obo/CHEBI_9300> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_189840> ,
+                                                            <http://purl.obolibrary.org/obo/CHEBI_28383> ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000115> "An α,ω-dicarboxylic acid that is the 1,6-dicarboxy derivative of hexane." ;
+                                            <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                            <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:9300" ;
+                                            <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                            rdfs:label "suberic acid" .
+
+
 ###  http://purl.obolibrary.org/obo/CHEBI_93269
 <http://purl.obolibrary.org/obo/CHEBI_93269> rdf:type owl:Class ;
                                              rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_25810> ;
@@ -81772,6 +83306,18 @@ owl:deprecated rdf:type owl:AnnotationProperty .
                                              <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:95032" ;
                                              <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/2_STAR> ;
                                              rdfs:label "(6S,9aS)-6-[(4-hydroxyphenyl)methyl]-8-(1-naphthalenylmethyl)-4,7-dioxo-N-(phenylmethyl)-3,6,9,9a-tetrahydro-2H-pyrazino[1,2-a]pyrimidine-1-carboxamide" .
+
+
+###  http://purl.obolibrary.org/obo/CHEBI_9506
+<http://purl.obolibrary.org/obo/CHEBI_9506> rdf:type owl:Class ;
+                                            rdfs:subClassOf <http://purl.obolibrary.org/obo/CHEBI_36470> ,
+                                                            <http://purl.obolibrary.org/obo/CHEBI_39266> ,
+                                                            <http://purl.obolibrary.org/obo/CHEBI_39267> ;
+                                            <http://purl.obolibrary.org/obo/IAO_0000115> "A quinazoline alkaloid that is a marine toxin isolated from fish such as puffer fish. It has been shown to exhibit potential neutotoxicity due to its ability to block voltage-gated sodium channels." ;
+                                            <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "chebi_ontology" ;
+                                            <http://www.geneontology.org/formats/oboInOwl#id> "CHEBI:9506" ;
+                                            <http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/3_STAR> ;
+                                            rdfs:label "tetrodotoxin" .
 
 
 ###  http://purl.obolibrary.org/obo/CHEBI_9518
